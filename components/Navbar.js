@@ -4,9 +4,9 @@ import { useRouter } from "next/router";
 import styles from "../styles/Navbar.module.scss";
 
 const navigation = [
-  { id: 1, title: "Home", path: "/" },
-  { id: 2, title: "Posts", path: "/posts" },
-  { id: 3, title: "Contacts", path: "/contacts" },
+  { id: 1, title: 'Home', path: '/' },
+  { id: 2, title: 'Posts', path: '/posts' },
+  { id: 3, title: 'Contacts', path: '/contacts' },
 ];
 
 const Navbar = () => {
